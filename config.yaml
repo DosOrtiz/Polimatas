@@ -1,0 +1,75 @@
+baseURL: https://paginadepruebadiego.netlify.app/
+languageCode: en-us
+title: Diego Ortiz
+theme: personal-web
+copyright: © Diego Ortiz
+googleAnalytics: ''
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+params:
+  accentColor: '#FD3519'
+  assets:
+    customCSS: ''
+    favicon: ''
+  breadcrumb: yes
+  contact:
+    email: 'dos_ortixx@hotmail.com'
+    text: ''
+  intro:
+    main: 'Hola, Soy Diego :wave:'
+    sub: Data Scientist y Actuario
+  main:
+    latestPublishHeader: My Latest Project
+  mainSections: portfolio
+  notFound:
+    gopher: /images/gopher.png
+    h1: Ha habido un error...¡Madre mía si es que lo hago todo mal!
+    p: Esta página no existe
+  sections:
+    portfolio: project
+    post: article
+  sidebar:
+    backgroundImage: /images/escalada.jpg
+    gradientOverlay: ''
+    logo: /images/yo.png
+  social:
+    linkedin: https://www.linkedin.com/in/diego-ortiz-santiesteban-86b526a8/
+    youtube: https://www.youtube.com/
+taxonomies:
+  design: designs
+  tech: techs
+blackfriday:
+  hrefTargetBlank: yes
+menu:
+  main:
+    - identifier: about
+      name: ¿Quién soy?
+      title: About section
+      url: /about/
+      weight: -120
+    - identifier: portfolio
+      name: ¿Qué hago?
+      title: Portfolio
+      url: /portfolio/
+      weight: -110
+    - identifier: blog
+      name: Blog
+      title: Blog section
+      url: /post/
+      weight: -100
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+    useSessionStorage: no
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
