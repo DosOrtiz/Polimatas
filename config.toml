@@ -1,8 +1,8 @@
 baseURL = "https://polimatados.netlify.app/"
 languageCode = "en-us"
-title = "Edna West"
+title = "Diego Ortiz Santiesteban"
 theme = "personal-web"
-copyright="© Edna West"
+copyright="© Diego Ortiz Santiesteban"
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -10,8 +10,12 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm DIEGO JOEPUTA :wave:"
-  sub = "I'm a Web Developer and Entrepreneur"
+  main = "Hola, Soy Diego :wave:"
+  sub = "Data Scientist y Actuario"
+
+[params.contact]
+  email= 'dos_ortixx@hotmail.com'
+  text= ""
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -29,9 +33,9 @@ pygmentsCodeFences=true
   mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
-  h1 = 'Bummer!'
-  p = "It seems that this page doesn't exist."
+  gopher = "/images/ay-caramba.png" # checkout https://gopherize.me/
+    h1: 'Ay caramba!'
+    p: "Esta página no existe"
 
 [params.sections]
   # Define how your sections will be called
@@ -40,24 +44,17 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = '' # header background image - default "/images/escalada.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "" # - default "/images/edna-west.jpg"
+  logo = "" # - default "/images/yo.png"
 [params.assets]
   favicon = ""
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
-  twitter = "https://twitter.com/"
-  linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/"
-  codepen = "https://codepen.io/"
-  facebook = "https://www.facebook.com/"
-  youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
-  keybase = "https://keybase.io/"
+  github = "https://github.com/DosOrtiz"
+  linkedin = "https://www.linkedin.com/in/diego-ortiz-santiesteban-86b526a8/"
+  youtube = "https://www.youtube.com/user/devil9217"
 
 [params.contact]
   email = ""
@@ -68,21 +65,21 @@ pygmentsCodeFences=true
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "¿Quién soy?"
   title = "About section"
   url = "/about/"
   weight = -120
 
 [[menu.main]]
   identifier = "portfolio"
-  name = "Portfolio"
+  name = "¿Qué hago?"
   title = "Portfolio"
   url = "/portfolio/"
   weight = -110
 
 [[menu.main]]
   identifier = "blog"
-  name = "Post"
+  name = "Blog"
   title = "Blog section"
   url = "/post/"
   weight = -100
