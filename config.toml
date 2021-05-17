@@ -1,4 +1,4 @@
-baseURL = "https://dosortiz.github.io/Polimatas/"
+baseURL = "https://polimatados.netlify.app/"
 languageCode = "en-us"
 title = "Edna West"
 theme = "personal-web"
@@ -10,7 +10,7 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Edna :wave:"
+  main = "Hi, I'm DIEGO JOEPUTA :wave:"
   sub = "I'm a Web Developer and Entrepreneur"
 
 [params.main]
