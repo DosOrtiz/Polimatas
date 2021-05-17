@@ -40,9 +40,10 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/escalada.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = '/images/escalada.jpg'
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "" # - default "/images/yo.png"
+  logo = "/images/yo.png"
+
 [params.assets]
   favicon = ""
   customCSS = ""
